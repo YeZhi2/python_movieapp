@@ -1,0 +1,7 @@
+<!--pages/login_sq/login_sq.wxml-->
+<button wx:if="{{!userInfo}}" bindtap="login" class="login">授权登录</button>
+<view wx:else class="root">
+  <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+  <text class="nickName">{{userInfo.nickName}}</text>
+  <button bindtap="logout">退出登录</button>
+</view>

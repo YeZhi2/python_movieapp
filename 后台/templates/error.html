@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>该电影不存在</title>
+</head>
+<body>
+<form action="/main/" method="post">
+     {% csrf_token %}
+    <h1>该电影不存在</h1>
+     <tr>
+         <td><button type="submit"> 返回</button></td>
+     </tr>
+</form>
+</body>
+</html>
