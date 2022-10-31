@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/our/our",
+        "pages/search/search",
+        "pages/navigate/navigate",
+        "pages/index/navigate",
+        "pages/out/out"
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents",
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "电影资源",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "selectedColor": "#F65368",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/static/images/home.jpg",
+                "selectedIconPath": "/static/images/home-select.jpg",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "iconPath": "/static/images/movie.jpg",
+                "selectedIconPath": "/static/images/movie-select.jpg",
+                "text": "搜索"
+            },
+            {
+                "pagePath": "pages/our/our",
+                "iconPath": "/static/images/user.jpg",
+                "selectedIconPath": "/static/images/user-select.jpg",
+                "text": "我的"
+            }
+        ]
+    }
+}
